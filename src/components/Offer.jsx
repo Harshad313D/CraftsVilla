@@ -2,20 +2,20 @@ import React from "react";
 
 function Offer() {
   return (
-    <section class=" py-8 antialiased dark:bg-gray-900 md:py-16">
+    <section class=" py-8 antialiased  md:py-16">
       <div class="mx-auto grid max-w-screen-xl px-4 pb-8 md:grid-cols-12 lg:gap-12 lg:pb-16 xl:gap-0">
         <div class="content-center justify-self-start md:col-span-7 md:text-start">
-          <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight dark:text-white md:max-w-2xl md:text-5xl xl:text-6xl">
+          <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight  md:max-w-2xl md:text-5xl xl:text-6xl">
             Limited Time Offer!
             <br />
             Up to 50% OFF!
           </h1>
-          <p class="mb-4 max-w-2xl text-gray-500 dark:text-gray-400 md:mb-12 md:text-lg lg:mb-5 lg:text-xl">
+          <p class="mb-4 max-w-2xl text-gray-500  md:mb-12 md:text-lg lg:mb-5 lg:text-xl">
             Don't Wait - Limited Stock at Unbeatable Prices!
           </p>
           <a
             href="#"
-            class="inline-block rounded-lg bg-rose-700 px-6 py-3.5 text-center font-medium text-white hover:bg-rose-800 focus:outline-none focus:ring-4 focus:ring-rose-300 dark:bg-rose-600 dark:hover:bg-rose-700 dark:focus:ring-rose-800"
+            class="inline-block rounded-lg bg-rose-700 px-6 py-3.5 text-center font-medium text-white hover:bg-rose-800 focus:outline-none focus:ring-4 focus:ring-rose-300 :bg-rose-600 "
           >
             Shop Now
           </a>
@@ -33,10 +33,10 @@ function Offer() {
           />
         </div>
       </div>
-      <div class="mx-auto grid max-w-screen-xl grid-cols-2 gap-8 text-gray-500 dark:text-gray-400 sm:grid-cols-3 sm:gap-12 lg:grid-cols-6 px-4">
+      <div class="mx-auto grid max-w-screen-xl grid-cols-2 gap-8 text-gray-500  sm:grid-cols-3 sm:gap-12 lg:grid-cols-6 px-4">
         <a href="#" class="flex items-center md:justify-center">
           <svg
-            class="h-10 hover:text-indigo-900 dark:hover:text-white"
+            class="h-10 hover:text-indigo-900 "
             viewBox="0 0 106 48"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ function Offer() {
         </a>
         <a href="#" class="flex items-center md:justify-center">
           <svg
-            class="h-8 hover:text-blue-900 dark:hover:text-white"
+            class="h-8 hover:text-blue-900 "
             viewBox="0 0 210 33"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +64,7 @@ function Offer() {
         </a>
         <a href="#" class="flex items-center md:justify-center">
           <svg
-            class="h-8 hover:text-gray-900 dark:hover:text-white"
+            class="h-8 hover:text-gray-900 "
             viewBox="0 0 76 33"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +89,7 @@ function Offer() {
         </a>
         <a href="#" class="flex items-center md:justify-center">
           <svg
-            class="h-8 hover:text-gray-900 dark:hover:text-white"
+            class="h-8 hover:text-gray-900 "
             viewBox="0 0 97 33"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -106,7 +106,7 @@ function Offer() {
         </a>
         <a href="#" class="flex items-center md:justify-center">
           <svg
-            class="h-8 hover:text-red-900 dark:hover:text-white"
+            class="h-8 hover:text-red-900 "
             viewBox="0 0 74 33"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -135,7 +135,7 @@ function Offer() {
         </a>
         <a href="#" class="flex items-center md:justify-center">
           <svg
-            class="h-6 hover:text-gray-900 dark:hover:text-white"
+            class="h-6 hover:text-gray-900 "
             viewBox="0 0 181 33"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
