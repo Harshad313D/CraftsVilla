@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="p-4 bg-gray-800 sm:p-6 dark:bg-gray-800">
+    <footer className="p-4 bg-gray-800 sm:p-6 ">
       <div className="mx-auto max-w-screen-xl">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
@@ -10,7 +10,7 @@ function Footer() {
                 className="mr-3 h-8"
                 alt=" Logo"
               />
-              <span className="self-center bg-white dark:bg-rose-700 rounded-full p-3 text-rose-700 text-4xl font-semibold whitespace-nowrap dark:text-white">
+              <span className="self-center bg-white  rounded-full p-3 text-rose-700 text-4xl font-semibold whitespace-nowrap ">
                 Craftsvilla
               </span>
             </a>
@@ -34,10 +34,10 @@ function Footer() {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-bold text-rose-500 uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-bold text-rose-500 uppercase">
                 Follow us
               </h2>
-              <ul className="text-white dark:text-gray-400">
+              <ul className="text-white font-medium ">
                 <li className="mb-4">
                   <a href="#" className="hover:underline ">
                     Github
@@ -51,10 +51,10 @@ function Footer() {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-bold text-rose-500 uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-bold text-rose-500 uppercase">
                 Legal
               </h2>
-              <ul className="text-white dark:text-gray-400">
+              <ul className="text-white font-medium ">
                 <li className="mb-4">
                   <a href="#" className="hover:underline">
                     Privacy Policy
@@ -69,9 +69,9 @@ function Footer() {
             </div>
           </div>
         </div>
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <hr className="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-white sm:text-center dark:text-gray-400">
+          <span className="text-sm text-white sm:text-center ">
             © 2022{" "}
             <a href="#" className="hover:underline">
               Craftsvilla™
@@ -98,7 +98,7 @@ function Footer() {
             </a>
             <a
               href="#"
-              className="text-white hover:bg-white hover:text-red-900 dark:hover:text-white"
+              className="text-white hover:bg-white hover:text-red-900 "
             >
               <svg
                 className="w-5 h-5"
@@ -128,7 +128,7 @@ function Footer() {
             </a>
             <a
               href="#"
-              className="text-white hover:bg-white hover:text-gray-900 dark:hover:text-white"
+              className="text-white hover:bg-white hover:text-gray-900 "
             >
               <svg
                 className="w-5 h-5"
