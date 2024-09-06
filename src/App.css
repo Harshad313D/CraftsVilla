@@ -1,0 +1,11 @@
+/* src/App.css */
+.mySwiper .swiper-pagination-bullet {
+    background-color: #ec5f82 !important;
+    /* Tailwind's rose-700 color */
+    opacity: 1;
+}
+
+.mySwiper .swiper-pagination-bullet-active {
+    background-color: #9f1239 !important;
+    /* Tailwind's rose-900 color */
+}

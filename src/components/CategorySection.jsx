@@ -1,6 +1,7 @@
 // src/components/Categories.jsx
 import { Swiper, SwiperSlide } from "swiper/react";
-import { A11y } from "swiper/modules";
+import { A11y, Pagination } from "swiper/modules";
+import "../App.css";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -21,10 +22,11 @@ function Categories() {
   return (
     <div className="p-4 pt-8 ">
       <Swiper
-        modules={[A11y]}
+        modules={[A11y, Pagination]}
         spaceBetween={16}
         slidesPerView="auto"
-        className="mySwiper h-80"
+        className="mySwiper h-80 "
+        pagination={{ clickable: true }}
       >
         <SwiperSlide
           className="flex-shrink-0 w-60 h-60 flex flex-col items-center cursor-pointer hover:bg-rose-200 rounded-full"

@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { A11y } from "swiper/modules";
+import { A11y, Pagination } from "swiper/modules";
+import "../App.css";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -25,10 +26,11 @@ function RocketDeals() {
       <p className="mt-4 text-2xl text-gray-500  ">Handpicked for you !</p>
 
       <Swiper
-        modules={[A11y]}
+        modules={[A11y, Pagination]}
         spaceBetween={16}
         slidesPerView="auto"
         className="mySwiper  pt-4 h-80"
+        pagination={{ clickable: true }}
       >
         <SwiperSlide
           className="flex-shrink-0 w-60 h-60 flex flex-col items-center cursor-pointer hover:bg-rose-200 rounded-full"
